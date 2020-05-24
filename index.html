@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Alethia Shih</title>
+
+  <!-- External link source for Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <!-- External CDN link source for Font Awesome icons -->
+  <script src="https://kit.fontawesome.com/5afe732514.js" crossorigin="anonymous"></script>
+
+  <!-- External link source for fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- External link source for CSS spreadsheet -->
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#resume">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#blog">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about-me">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/in/alethia-shih-05216656/">Connect</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <!-- <a id = "#about-me" href="about-me.html">About Me</a>
+    <a id = "#resume" href="resume.html">Resume</a>
+    <a id = "#portfolio" href="portfolio.html">Portfolio</a>
+    <a id = "#blog" href="http://www.wallflourgirl.com">Blog</a>
+    <a id = "#contact" href="contact.html">Contact</a> -->
+
+  <!-- Div container for entire top section -->
+  <div class="top-container">
+
+    <!-- Header Image -->
+      <div class="row">
+        <div class="profile-column col-lg-3 col-md-12">
+          <img class="header-image" src="images/profile-pic-cropped.png" alt="profile-image.png">
+        </div>
+        <div class="text-column col-lg-9 col-md-12">
+          <p><span class="pink-text">———</span> HI THERE! MY NAME IS <span class="pink-text">———</span></p>
+          <h1 class="big-name">ALETHIA SHIH</h1>
+          <h2 class="roles">I <span class="pink-text">write</span>, I <span class="pink-text">blog</span>, and I do <span class="pink-text">digital marketing things</span>.</h2>
+          <h2 class="roles">Oh, and I'm a <span class="pink-text">doctor</span>. Just not that kind of doctor.</h2>
+          <!-- Read Story Button (inactive) -->
+          <!-- <button type = "button" class = "read-story btn btn-light" href = "#explore">Read My Story</button> -->
+          <div class="read-more-container">
+            <a class="read-more" href="#explore">Read more <i class="fas fa-chevron-down"></i></a>
+          </div>
+        </div>
+
+
+      </div>
+
+  </div>
+
+  <!-- Explore Section-->
+  <div id="explore">
+    <h2 class="explore-header section-header-color-bg">explore</h2>
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-lg-2 col-md-6 col-sm-12">
+          <a href="#experience"><i class="explore-icon far fa-lightbulb fa-5x"></i></a>
+          <a class="explore-section" href="#experience">Experience</a>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-sm-12">
+          <a href="documents/AlethiaShih_Resume.pdf" download><i class="explore-icon far fa-file fa-5x"></i></a>
+          <a class="explore-section" href="documents/AlethiaShih_Resume.pdf" download>Resume</a>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-sm-12">
+          <a href="#blog"><i class="explore-icon fas fa-camera fa-5x"></i></a>
+          <a class="explore-section" href="#blog">Blog</a>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-sm-12">
+          <a href="#porfolio"><i class="explore-icon far fa-folder-open fa-5x"></i></a>
+          <a class="explore-section" href="#portfolio">Portfolio</a>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-sm-12">
+          <a href="#about-me"><i class="explore-icon far fa-heart fa-5x"></i></a>
+          <a class="explore-section" href="#about">About Me</a>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-sm-12">
+          <a href="https://www.linkedin.com/in/alethia-shih-05216656/"><i class="explore-icon far fa-envelope fa-5x"></i></a>
+          <a class="explore-section" href="https://www.linkedin.com/in/alethia-shih-05216656/">Connect</a>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Experience Section -->
+  <div id="experience">
+    <h2 class="experience-header section-header-white-bg">what I've done so far</h2>
+
+    <div class="experience-item container-fluid">
+      <div class= "experience-row row">
+        <div class="col-lg-4 col-md-12">
+          <img class="experience-img" src="images/universal.jpg" alt="universal-logo.jpg">
+        </div>
+        <div class="experience-text col-lg-8 col-md-12">
+          <h3 class="job-title">Exhibitor Social & Digital Marketing Manager</h3>
+          <h5 class="company-name">Universal Pictures | June 2019 - Present</h5>
+            <ul class="experience-description">
+              <li>Lead team’s social media and digital marketing initiatives with over 50 exhibitor partners across all Universal, DreamWorks Animation, and Illumination film titles.</li>
+              <li>Conceptualize and execute big-scale digital activations including sweepstakes, trailer launch programs, social media takeovers, and exclusive content debuts across exhibitor platforms. </li>
+              <li>Create strategic positioning and lead creative brainstorms for digital program partnerships. </li>
+              <li>Craft compelling copy for creative pitches, filmmaker decks, social posts, and talent scripts.</li>
+              <li>Analyze social insights and benchmarks data to enrich campaign strategy and audience targeting. </li>
+            </ul>
+        </div>
+      </div>
+
+      <div class= "experience-row row">
+        <div class="col-lg-4 col-md-12">
+          <img class="experience-img" src="images/wg-logo.jpg" alt="wallflour-girl-logo.jpg">
+        </div>
+        <div class="experience-text col-lg-8 col-md-12">
+          <h3 class="job-title">Food Blogger</h3>
+          <h5 class="company-name">Wallflourgirl.com | June 2012 - Present</h5>
+            <ul class="experience-description">
+              <li>Engage over 17,000 unique visitors each month with simple, no-frills recipes featuring original photography and effervescent storytelling.</li>
+              <li>Create trusted sponsored editorial content for well-known brands such as Hershey, Nabisco, and OXO. </li>
+              <li>Design mobile-friendly website and maintain SEO best practices using HTML, CSS, and Javascript.</li>
+              <li>Grow blog audience through consistent curation of social content across Facebook, Instagram, and Pinterest.</li>
+            </ul>
+        </div>
+      </div>
+
+      <div class= "experience-row row">
+        <div class="col-lg-4 col-md-12">
+          <img class="experience-img" src="images/disney-studios.jpg" alt="disney-studios.jpg">
+        </div>
+        <div class="experience-text col-lg-8 col-md-12">
+          <h3 class="job-title">Digital Marketing Coordinator</h3>
+          <h5 class="company-name">The Walt Disney Company | July 2017 - June 2019</h5>
+            <ul class="experience-description">
+              <li>Managed day-to-day creative content development, agencies, editorial calendars, filmmaker approvals, and social publishing for Disney Animation, Pixar, Marvel, & Star Wars film campaigns.</li>
+              <li>Created team style guide and oversaw copywriting to ensure that all creative captured Disney’s unique voice.</li>
+              <li>Generated viral buzz around film releases by spearheading social stunts, including Winnie the Pooh’s real-world adventures through London and a one-day Peter Pan parade at Disney World.</li>
+              <li>Spearheaded division’s inaugural use of Workfront, a project management system for tracking internal projects. Demoed at Digital Media Distribution town hall & for teams company-wide.</li>
+            </ul>
+        </div>
+      </div>
+
+      <div class= "experience-row row">
+        <div class="col-lg-4 col-md-12">
+          <img class="experience-img" src="images/nick-animation-logo.jpg" alt="nickelodeon-animation-logo.jpg">
+        </div>
+        <div class="experience-text col-lg-8 col-md-12">
+          <h3 class="job-title">Social Media Coordinator</h3>
+          <h5 class="company-name">Nickelodeon | September 2015 - June 2017</h5>
+            <ul class="experience-description">
+              <li>Wrote creative copy, produced video/gif assets, and published content for Nickelodeon’s official Twitter (4M followers), Facebook (26.7M), Instagram (2M), and Tumblr accounts.</li>
+              <li>Oversaw community management and enlivened fan conversations through humorous, quintessentially “Nick” responses across social.</li>
+              <li>Used native analytics tools in order to optimize creative strategy and manage launch campaigns for show-specific accounts (@hunterstreettv, @rideonnickelodeon).</li>
+              <li>Managed real-time social publishing and fan engagement during live events such as the Kids’ Choice Awards.</li>
+            </ul>
+        </div>
+      </div>
+
+      <div class= "experience-row row">
+        <div class="col-lg-4 col-md-12">
+          <img class="experience-img" src="images/ucla-sign.jpg" alt="ucla-sign.jpg">
+        </div>
+        <div class="experience-text col-lg-8 col-md-12">
+          <h3 class="job-title">English Literature Teaching Fellow</h3>
+          <h5 class="company-name">University of California, Los Angeles | September 2012 - June 2016</h5>
+            <ul class="experience-description">
+              <li>Taught literature and composition in undergraduate-level English classes, ranging from 17th-century British literature to 20th-century children's fantasy literature.</li>
+              <li>Developed extensive, high-energy lesson plans to engage students in writing best practices.</li>
+              <li>Provided detailed feedback on over 150 student writing assignments each quarter.</li>
+              <li>Nominated for Best Teaching Assistant Award, UCLA English Department.
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Education Section -->
+<div id="education">
+  <h2 class="education-header section-header-white-bg">education</h2>
+
+  <div class="education-item container-fluid">
+    <div class= "education-row row">
+      <div class="col-lg-6 col-md-12">
+        <img class="education-img" src="images/ucla-seal.png" alt="ucla-seal.png">
+      </div>
+      <div class="col-lg-6 col-md-12">
+        <img class="education-img" src="images/berkeley-seal.jpg" alt="berkeley-seal.jpg">
+      </div>
+    </div>
+
+    <div class= "education-row row">
+      <div class="education-text col-lg-6 col-md-12">
+        <h3 class="school-name">University of California, Los Angeles</h3>
+        <h5 class="degree-name">PhD in English | Class of 2017</h5>
+      </div>
+      <div class="education-text col-lg-6 col-md-12">
+        <h3 class="school-name">University of California, Los Angeles</h3>
+        <h5 class="degree-name">BA in English, BA in Communications | Class of 2011</h5>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Blog Section -->
+<div id = "blog">
+
+  <h2 class="blog-header section-header-color-bg">what I blog about</h2>
+  <div class="blog-item container-fluid">
+    <div class= "blog-row row">
+
+    <!-- Blog Description -->
+    <div class="col-lg-5 col-md-12">
+      <h5 class="blog-description">
+        <span class = "wg-slogan">The plot thickens. Just add cornstarch.</span>
+        <br>
+        <br>
+        Back in 2012, I was happily cajoled into teaching a summer course at UCLA called "New Media." One Wordpress template and a few blurry phone photos later, I kickstarted my Intro to Blogging class. And that's how Wallflour Girl was born.
+        <br>
+        <br>
+        Over the years, this blog has blossomed into a delightful bricolage of my favorite ingredients: baking, food photography, and above all, unforgettable storytelling. Today, Wallflour Girl continues to offer recipes to over 250,000 readers every year--best served with a side of written wit and a sprinkle of joy.</h5>
+        <br>
+        <br>
+        <h5 class = "featured-on">Featured on:</h5>
+        <div class = "logo-line">
+          <img class = "featured-logos" src = "images/buzzfeed-logo.png" alt = "buzzfeed-logo.png">
+          <img class = "featured-logos" src = "images/brit-co-logo.png" alt = "brit-co-logo.png">
+          <img class = "featured-logos" src = "images/yahoo-logo.png" alt = "yahoo-logo.png">
+        </div>
+<!-- Extra Logos -->
+        <!-- <div class = "logo-line">
+          <img class = "featured-logos" src = "images/msn-logo.png" alt = "msn-logo.png">
+          <img class = "featured-logos" src = "images/tastespotting-logo.png" alt = "tastespotting-logo.png">
+          <img class = "featured-logos" src = "images/wfc-logo.png" alt = "wfc-logo.png">
+        </div> -->
+
+    </div>
+
+    <!-- Carousel -->
+      <div class="col-lg-7 col-md-12">
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="blog-img" src="images/chocolate-chip-cookie.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="blog-img" src="images/flourless-chocolate-cake.jpg" alt="Second slide">
+            </div>
+          </div>
+        </div>
+      </div>
+        <!-- End Carousel -->
+
+    </div>
+
+</div>
+</div>
+
+
+<!-- Portfolio Section -->
+<div id="portfolio">
+  <h2 class="portfolio-header section-header-white-bg">samples of my work and achievements</h2>
+
+  <div class="portfolio-column col-lg-2 col-md-4 col-sm-12">
+    <div class = "container">
+      <img class = "portfolio-item" src = "images/portfolio-POM-takeover.png" alt = "penguins-of-madagascar.png">
+      <div class = "overlay"></div>
+      <div class = "text">Penguins of Madagascar Social Takeover</div>
+    </div>
+  </div>
+
+  <div class="portfolio-column col-lg-2 col-md-4 col-sm-12">
+    <div class = "container">
+      <img class = "portfolio-item" src = "images/portfolio-PP-parade.jpg" alt = "peter-pan-parade.jpg">
+      <div class = "overlay"></div>
+        <div class = "text">Walt Disney World Peter Pan Parade</div>
+    </div>
+  </div>
+
+  <div class="portfolio-column col-lg-2 col-md-4 col-sm-12">
+    <div class = "container">
+      <img class = "portfolio-item" src = "images/portfolio-CR-social.jpg" alt = "christopher-robin-social">
+      <div class = "overlay"></div>
+        <div class = "text">Christopher Robin Social Campaign</div>
+    </div>
+  </div>
+
+  <div class="portfolio-column col-lg-2 col-md-4 col-sm-12">
+    <div class = "container">
+      <img class = "portfolio-item" src = "images/portfolio-tlm-legday.PNG" alt = "the-little-mermaid-leg-day.png">
+      <div class = "overlay"></div>
+        <div class = "text">The Little Mermaid Digital Campaign</div>
+    </div>
+  </div>
+
+  <div class="portfolio-column col-lg-2 col-md-4 col-sm-12">
+    <div class = "container">
+      <img class = "portfolio-item" src = "images/portfolio-f9-onesheet.jpg" alt = "F9-onesheet.jpg">
+      <div class = "overlay"></div>
+        <div class = "text">F9 Advance Ticketing Launch</div>
+    </div>
+  </div>
+
+
+  <div class="portfolio-column col-lg-2 col-md-4 col-sm-12">
+    <div class = "container">
+      <img class = "portfolio-item" src = "images/portfolio-wfc.jpg" alt = "world-food-championships.jpg">
+      <div class = "overlay"></div>
+        <div class = "text">World Food Championships</div>
+    </div>
+  </div>
+
+  <div class="portfolio-column col-lg-2 col-md-4 col-sm-12">
+    <div class = "container">
+      <img class = "portfolio-item" src = "images/portfolio-kca-performers.jpeg" alt = "nickelodeon-kids-choice-awards.jpeg">
+      <div class = "overlay"></div>
+        <div class = "text">Nickelodeon Kids' Choice Awards</div>
+    </div>
+  </div>
+
+  <div class="portfolio-column col-lg-2 col-md-4 col-sm-12">
+    <div class = "container">
+      <img class = "portfolio-item" src = "images/portfolio-nick-spongebob.png" alt = "nick-spongebob-musical.png">
+      <div class = "overlay"></div>
+        <div class = "text">Nick Parents Blog</div>
+    </div>
+  </div>
+
+  <div class="portfolio-column col-lg-2 col-md-4 col-sm-12">
+    <div class = "container">
+      <img class = "portfolio-item" src = "images/portfolio-disney-award.jpg" alt = "disney-inventor-award.jpg">
+      <div class = "overlay"></div>
+        <div class = "text">Disney Inventor Award - 2018</div>
+    </div>
+  </div>
+
+  <div class="portfolio-column col-lg-2 col-md-4 col-sm-12">
+    <div class = "container">
+      <img class = "portfolio-item" src = "images/portfolio-dissertation-pooh.jpg" alt = "winnie-the-pooh.jpg">
+      <div class = "overlay"></div>
+        <div class = "text">UCLA Doctoral Dissertation</div>
+    </div>
+  </div>
+
+
+</div>
+
+
+<!-- About Me Section -->
+
+<div id = "about">
+  <div class = "about-section-container">
+    <h2 class="about-header section-header-color-bg">about me</h2>
+
+    <div class = "row">
+      <div class = "about-image-column col-lg-3 col-md-12">
+        <img class = "about-profile-img" src = "images/about-profile.jpg" alt = "profile-picture.jpg">
+      </div>
+      <div class = "about-text-column col-lg-9 col-md-12">
+        <h3 class = "about-text">My love for life is rivaled only by Gordon Ramsay's love for infinitesimally small portions of French food. I earned my English PhD from UCLA in 2017, which is another way of saying that I'm decent at reading and writing, and also that I won't respond when somebody on an airplane yells, "<span class = "italics">Help! Is there a doctor on board?</span>" I know lots of things about digital marketing, some things about web development, and very little about axolotls (except that they're great for memes). In my spare time, you might find me blogging, baking, swimming, writing clichés, and pretending I know all the lyrics to my favorite musicals.</h3>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Contact Section -->
+
+<!-- <div id = "contact">
+
+  <a class = "contact-icon" href = "https://www.linkedin.com/in/alethia-shih-05216656/"><i class="fab fa-linkedin fa-5x"></i></a>
+  <a class = "contact-icon" href="mailto:alethiashih@gmail.com"><i class="explore-icon far fa-envelope fa-5x"></i></a>
+
+</div> -->
+
+
+</body>
+
+</html>

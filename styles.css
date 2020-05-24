@@ -1,0 +1,347 @@
+body {
+  font-family: "Helvetica", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+p {
+  color: #808080;
+  font-family: "Helvetica", sans-serif;
+  font-size: 1.2rem;
+}
+
+ul {
+  list-style-type: square;
+}
+
+/* Navigation Bar */
+.navbar {
+    -webkit-box-shadow: 0 4px 3px -3px #888;
+    -moz-box-shadow: 0 4px 3px -3px #888;
+    box-shadow: 0 4px 3px -3px #888;
+}
+
+.bg-light {
+  background-color: #14d7be !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+/* Top Section */
+.top-container {
+  margin: 13% 15%;
+}
+
+.profile-column {
+  text-align: center;
+}
+
+.header-image {
+  width: 100%;
+  margin-top: 35%;
+}
+
+.text-column {
+  padding-left: 10%;
+  text-align: left;
+}
+
+.big-name {
+  font-size: 6rem;
+  margin: 5% auto 10%;
+}
+
+.pink-text {
+  color: #ff909e;
+}
+
+.read-more-container {
+    margin-top: 5rem;
+}
+
+.read-more {
+  color: #ffc3cb;
+
+  font-weight: 300;
+}
+
+.read-more:hover {
+  color: #ff909e;
+}
+
+/* Section Header Titles (All) */
+.section-header-white-bg {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.section-header-color-bg {
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+/* Explore Section */
+#explore {
+  background-image: linear-gradient(to bottom right, #A1EFE5, #14d7be, #B8F3EB);
+  padding: 3% 0 5%;
+}
+
+.explore-icon {
+  color: white;
+  display: block;
+  margin: 30px 60px;
+}
+
+.explore-section {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.explore-icon:hover, .explore-section:hover {
+  color: #ffc3cb;
+  text-decoration: none;
+}
+
+/* Experience Section */
+#experience {
+  margin: auto 15% auto 15%;
+  padding-top: 5%;
+}
+
+.experience-item {
+  margin: 3% auto;
+}
+
+.experience-row {
+  margin-bottom: 50px;
+}
+
+.experience-img {
+  border-radius: 10%;
+  max-width: 350px;
+}
+
+.experience-img:hover {
+  opacity: 0.5;
+}
+
+.experience-text {
+  padding-left: 8%;
+  text-align: left;
+}
+
+.job-title {
+  color: #14d7be;
+}
+
+.company-name {
+  color: #ff909e;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+.experience-description {
+  color: #777777;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+/* Education Section */
+#education {
+  margin: 1% 15%;
+  padding: 1% 0 1%;
+}
+
+.education-item {
+  margin: 3% auto;
+}
+
+.education-img {
+  border-radius: 10%;
+  margin-bottom: 3%;
+  max-width: 250px;
+}
+
+/* Blog Section */
+#blog {
+  background-color: #FFF3F4;
+  padding: 3% 0 1%;
+}
+
+.blog-header {
+  color: #ff909e;
+}
+
+.blog-row {
+  margin: 3% auto;
+}
+
+.blog-description {
+  color: #777777;
+  font-size: 1rem;
+  margin-left: 15%;
+  padding-top: 10%;
+}
+
+.wg-slogan {
+  color: #ff909e;
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
+.featured-on {
+  color: #ff909e;
+  font-size: .8rem;
+  font-style: italic;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.featured-logos {
+  margin: 0 20px;
+  display: inline-block;
+  width: 100px;
+}
+
+/* Portfolio */
+
+#portfolio {
+  padding: 5% 0;
+}
+
+.portfolio-column {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0;
+  padding: 3% 0 0;
+  position: relative;
+  width: 100%;
+}
+
+.portfolio-item {
+  height: 100%;
+  opacity: 1;
+  width: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.overlay {
+  background-color: white;
+  height: 100%;
+  left: 50%;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate (-50%, -50%);
+  transition: .7s ease;
+  width: 100%;
+}
+
+.overlay:hover {
+  opacity: 0.5;
+}
+
+.container:hover .overlay {
+  opacity: 0.7;
+}
+
+.text {
+  color: black;
+  font-size: 2rem;
+  font-weight: 200;
+  left: 50%;
+  opacity: 0;
+  top: 50%;
+  position: absolute;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate (-50%, -50%);
+  transition: .7s ease;
+}
+
+.container:hover .text {
+  opacity: 1;
+}
+
+
+/* About Me Section */
+
+#about {
+  background-image: linear-gradient(to bottom right, #fff6f7, #ff909e, #fff6f7);
+}
+
+.about-section-container {
+  margin: 0 15%;
+  padding-bottom: 5%;
+}
+
+.about-header {
+  color: white;
+  padding: 3% 0 1%;
+}
+
+.about-profile-img {
+  border-radius: 50%;
+  margin-left: 30%;
+  width: 100%;
+}
+
+.about-text-column {
+  padding: 3% 20% 0 12%;
+  text-align: left;
+}
+
+.about-text {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.italics {
+  font-style: italic;
+}
+
+
+/* Contact Section */
+
+/* #contact {
+  background-color: #B8F3EB;
+  padding: 1%;
+}
+
+.contact-icon {
+  display: inline-block;
+} */
+
+/* #contact {
+  display: block;
+  position: relative;
+  padding: 20% 0;
+}
+
+#contact::after {
+  background-image: url("images/about-background-swim-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  opacity: 0.3;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+} */
