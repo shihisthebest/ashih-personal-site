@@ -32,6 +32,10 @@ ul {
   color: white;
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ffc3cb;
+}
+
 /* Top Section */
 .top-container {
   margin: 13% 15%;
@@ -187,6 +191,15 @@ ul {
   font-size: 1rem;
   margin-left: 15%;
   padding-top: 10%;
+}
+
+.blog-link {
+  color: #ff909e;
+  text-decoration: underline;
+}
+
+.blog-link:hover {
+  color: #14d7be;
 }
 
 .wg-slogan {
