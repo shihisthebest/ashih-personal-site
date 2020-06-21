@@ -50,6 +50,13 @@ ul {
   margin-top: 35%;
 }
 
+@media (max-width: 991px) {
+  .header-image {
+    margin-top: 5%;
+    width: 50%;
+  }
+}
+
 .text-column {
   padding-left: 10%;
   text-align: left;
@@ -60,17 +67,52 @@ ul {
   margin: 5% auto 10%;
 }
 
+@media (max-width: 991px) {
+  .profile-text {
+    padding-top: 5%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .pink-line {
+    display: none;
+  }
+}
+
 .pink-text {
   color: #ff909e;
+}
+
+@media (max-width: 991px) {
+  .big-name {
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .roles {
+    font-size: 1.3rem;
+    text-align: center;
+  }
 }
 
 .read-more-container {
     margin-top: 5rem;
 }
 
+@media (max-width: 991px) {
+  .read-more-container {
+    display: block;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 7%;
+  }
+}
+
 .read-more {
   color: #ffc3cb;
-
   font-weight: 300;
 }
 
@@ -128,16 +170,28 @@ ul {
 
 .experience-img {
   border-radius: 10%;
-  max-width: 350px;
+  max-width: 100%;
 }
 
 .experience-img:hover {
   opacity: 0.5;
 }
 
+@media (max-width: 991px) {
+  .job-title, .company-name {
+    text-align: center;
+  }
+}
+
 .experience-text {
   padding-left: 8%;
   text-align: left;
+}
+
+@media (max-width: 991px) {
+  .experience-text {
+    padding-top: 3%;
+  }
 }
 
 .job-title {
@@ -172,6 +226,32 @@ ul {
   max-width: 250px;
 }
 
+@media (max-width: 991px) {
+  .education-img {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .education-text {
+    margin-bottom: 5%;
+  }
+}
+
+@media (max-width: 991px) {
+  .school-name {
+    color: #ff909e;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .degree-name {
+    color: #14d7be;
+    font-size: 1rem;
+  }
+}
+
 /* Blog Section */
 #blog {
   background-color: #FFF3F4;
@@ -191,6 +271,14 @@ ul {
   font-size: 1rem;
   margin-left: 15%;
   padding-top: 10%;
+}
+
+@media (max-width: 991px) {
+  .blog-description {
+    margin-right: auto;
+    margin-left: 2%;
+    padding-top: 3%;
+  }
 }
 
 .blog-link {
@@ -308,13 +396,27 @@ ul {
 
 .about-profile-img {
   border-radius: 50%;
-  margin-left: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
+}
+
+@media (max-width: 991px) {
+  .about-profile-img {
+    width: 50%;
+  }
 }
 
 .about-text-column {
   padding: 3% 20% 0 12%;
   text-align: left;
+}
+
+@media (max-width: 991px) {
+  .about-text-column {
+    padding: 3% 3%;
+  }
 }
 
 .about-text {
